@@ -47,13 +47,14 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        // text = dusty blue, bg = light grey, dark mode fallbacks
+         'text-[#073862] bg-[#F3F2F7] dark:text-white dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
       <body className="antialiased">
-        <main className="max-w-5xl mx-auto px-6 mt-6 flex flex-col">
+       <main className="max-w-5xl mx-auto px-6 mt-6 flex flex-col text-justify">
           <Navbar />
           {children}
           <Footer />
@@ -64,4 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-

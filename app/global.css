@@ -148,3 +148,32 @@ table {
 .title {
   text-wrap: balance;
 }
+
+body {
+  background-color: rgba(173, 173, 202, 0.1); /* subtle, see-through lavender */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #7C8B76; /* stronger sage green */
+  background-color: transparent; /* no highlight */
+  padding: 0;
+  border-radius: 0;
+}
+
+p {
+  color: #073862; /* main text color remains */
+}
+
+/* Links keep salmon */
+a {
+  color: #D9827B; /* brighter but still soft salmon */
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: #D9786D; /* darker salmon on hover */
+  outline: none;
+  text-decoration: underline;
+}

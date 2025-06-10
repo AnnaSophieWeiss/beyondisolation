@@ -88,7 +88,7 @@ export default function OutreachPage() {
       ),
     },
     {
-      title: 'BIOspektrum Article – Synthetic Gut Bacterial community: the OMM12',
+      title: 'BIOspektrum Article – A synthetic gut bacterial community: the OMM12',
       year: '2023',
       content: (
         <>
@@ -106,7 +106,7 @@ export default function OutreachPage() {
       ),
     },
     {
-      title: 'Behind the Paper – How to become a bacteria whisperer',
+      title: '"Behind the Paper" Article – How to become a bacteria whisperer',
       year: '2021',
       content: (
         <>
@@ -157,7 +157,7 @@ export default function OutreachPage() {
         </div>
       ))}
 
-      <h2 className="text-2xl font-semibold mt-10 mb-4">scientific conferences (selection)</h2>
+      <h2 className="text-4xl font-semibold mt-10 mb-4">scientific conferences (selection)</h2>
       <ul className="list-disc pl-6 mb-8">
         <li>ISME19 2024 (Capetown, South Africa), <em>poster presentation</em></li>
         <li>7th Joint Conference DGHM & VAAM 2024 (Würzburg, Germany), <em>invited talk</em></li>
@@ -176,7 +176,7 @@ export default function OutreachPage() {
     
       </ul>
 
-      <h2 className="text-2xl font-semibold mb-4">online</h2>
+      <h2 className="text-4xl font-semibold mb-4">online</h2>
       <p className="mb-4">
         Follow me on{' '}
         <a
