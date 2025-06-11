@@ -109,7 +109,7 @@ export default function AboutPage() {
         <ul className="list-disc list-inside space-y-2">
           <li>
             Weiss AS et al. (2024). "Cell Systems Voices: How can concepts from ecology enable insights about cellular communities?"
-            <em>Cell Systems</em>.{" "}
+            <em> Cell Systems</em>.{" "}
             <a
               href="https://doi.org/10.1016/j.cels.2024.09.010"
               className="text-blue-600 underline"
@@ -119,7 +119,7 @@ export default function AboutPage() {
           </li>
           <li>
     Weiss AS et al. (2023). "Nutritional and host environments determine community ecology and keystone species in a synthetic gut bacterial community."{" "}
-    <em>Nature Communications</em>.{" "}
+    <em> Nature Communications</em>.{" "}
     <a
       href="https://doi.org/10.1038/s41467-023-40372-0"
       className="text-blue-600 underline"
@@ -129,7 +129,7 @@ export default function AboutPage() {
   </li>
           <li>
             Weiss AS et al. (2021). "In vitro interaction network of a synthetic gut bacterial community"
-            <em>ISME J</em>.{" "}
+            <em> ISME J</em>.{" "}
             <a
               href="https://doi.org/10.1038/s41396-021-01153-z"
               className="text-blue-600 underline"
@@ -139,7 +139,7 @@ export default function AboutPage() {
           </li>
           <li>
             Weiss AS et al. (2020). "Dynamics of ColicinE2 production and release determine the competitive success of a toxin-producing bacterial population"
-            <em>Scientific Reports</em>.{" "}
+            <em> Scientific Reports</em>.{" "}
             <a
               href="https://doi.org/10.1038/s41598-020-61086-z"
               className="text-blue-600 underline"
