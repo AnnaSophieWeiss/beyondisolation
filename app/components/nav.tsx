@@ -13,9 +13,9 @@ const navItems = {
   '/research': {
     name: 'research',
   },
-  '/blog': {
-    name: 'blog',
-  }
+   // '/blog': {
+  //   name: 'blog',
+  // },
 }
 
 export function Navbar() {

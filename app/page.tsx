@@ -3,11 +3,19 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <>
-      <section>
+      <section>  
         <h1 className="mb-8 text-4xl font-semibold tracking-tighter">
           microbial communities – ecology emerges beyond isolation
         </h1>
-        <p className="mb-4">
+         <div className="w-45 h-13 shrink-0">
+          <img
+            src="/kchip_thin.jpeg"
+            alt="Anna S. Weiss"
+            className="rounded-lg shadow object-cover w-full h-full"
+          />
+        </div>
+        <br/>
+        <p className="mb-2">
           Hi, I'm Dr. Anna S. Weiss.</p>
           <p className="mb-4">
           I’m a microbiologist and microbial ecologist fascinated by how bacteria interact, form communities,
@@ -20,9 +28,7 @@ export default function Page() {
         
       </section>
 
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+       
     </>
   )
 }

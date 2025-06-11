@@ -158,7 +158,7 @@ export default function OutreachPage() {
       ))}
 
       <h2 className="text-4xl font-semibold mt-10 mb-4">scientific conferences (selection)</h2>
-      <ul className="list-disc pl-6 mb-8">
+      <ul className="list-disc space-y-2 pl-6 mb-8">
         <li>ISME19 2024 (Capetown, South Africa), <em>poster presentation</em></li>
         <li>7th Joint Conference DGHM & VAAM 2024 (Würzburg, Germany), <em>invited talk</em></li>
         <li>GRC Marine Microbes 2024 (Switzerland), <em>poster presentation</em> </li>
