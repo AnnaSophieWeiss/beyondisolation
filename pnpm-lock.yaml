@@ -36,7 +36,7 @@ importers:
         specifier: ^0.534.0
         version: 0.534.0(react@18.3.1)
       next:
-        specifier: 15.4.5
+        specifier: ^15.4.5
         version: 15.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-mdx-remote:
         specifier: ^4.4.1
@@ -45,10 +45,10 @@ importers:
         specifier: ^8.4.35
         version: 8.5.6
       react:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       sugar-high:
         specifier: ^0.6.0
