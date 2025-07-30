@@ -1,3 +1,4 @@
+// app/layout.js
 import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
@@ -11,15 +12,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Beyond Isolation – Dr. Anna S. Weiss',
+    template: '%s | Beyond Isolation – Dr. Anna S. Weiss',
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: 'My Portfolio',
+    title: 'Beyond Isolation – Dr. Anna S. Weiss',
     description: 'This is my portfolio.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Beyond Isolation – Dr. Anna S. Weiss',
     locale: 'en_US',
     type: 'website',
   },
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
   },
 }
 
-const cx = (...classes) => classes.filter(Boolean).join(' ')
+const cx = (...classes: string[]) => classes.filter(Boolean).join(' ')
 
 export default function RootLayout({
   children,
@@ -48,13 +49,13 @@ export default function RootLayout({
       lang="en"
       className={cx(
         // text = dusty blue, bg = light grey, dark mode fallbacks
-         'text-[#073862] bg-[#F3F2F7] dark:text-white dark:bg-black',
+        'text-[#073862] bg-[#F3F2F7] dark:text-white dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
       <body className="antialiased">
-       <main className="max-w-5xl mx-auto px-6 mt-6 flex flex-col text-justify">
+        <main className="max-w-5xl mx-auto px-6 mt-6 flex flex-col text-justify">
           <Navbar />
           {children}
           <Footer />
