@@ -1,10 +1,12 @@
-'use client';
-import { useState } from 'react';
+"use client";
+
+import { useState, type ReactNode } from 'react';
+import { ChevronDown } from 'lucide-react';
 
 type AccordionItem = {
   title: string;
   year?: string;
-  content: React.ReactNode;
+  content: ReactNode;
 };
 
 export default function OutreachPage() {
@@ -126,30 +128,30 @@ export default function OutreachPage() {
   ];
 
   return (
-    <div className="w-full px-4">  
-
+    <div className="w-full px-4">
       <h1 className="text-4xl font-semibold mb-6">outreach</h1>
 
       <p className="mb-4">
         Not just microbial, but also human communities work best <em>beyond isolation</em>.
       </p>
       <p className="mb-4">
-        I'm convinced that science is a collaborative endeavour that can only profit from diverse perspectives.
-        Correspondingly, I am committed to making my research accessible to both the scientific community and
-        the broader public. Communicating my work beyond academia is a responsibility I deeply value and enjoy.
+        I'm convinced that science is a collaborative endeavour that can only benefit from diverse perspectives. Correspondingly, I am committed to making my research accessible to both the scientific community and the broader public. Communicating my work beyond academia is a responsibility I deeply value and enjoy.
       </p>
       <p className="mb-8">Find a selected list of my past and current outreach activities below.</p>
-
-     
 
       {outreachItems.map((item, index) => (
         <div key={index} className="mb-4 border-b border-neutral-300 dark:border-neutral-700 pb-2">
           <button
             onClick={() => toggle(index)}
-            className="text-left w-full font-semibold text-base focus:outline-none"
+            className="flex items-center justify-between w-full font-semibold text-base focus:outline-none"
           >
-            {item.title}
-            {item.year && <span className="text-sm text-gray-500 ml-2">({item.year})</span>}
+            <span className="flex items-center">
+              {item.title}
+              {item.year && <span className="text-sm text-gray-500 ml-2">({item.year})</span>}
+            </span>
+            <ChevronDown
+              className={`w-5 h-5 transition-transform duration-200 ${openIndex === index ? 'rotate-180' : ''}`}
+            />
           </button>
           {openIndex === index && (
             <div className="mt-2 text-sm text-neutral-700 dark:text-neutral-300">{item.content}</div>
@@ -161,19 +163,18 @@ export default function OutreachPage() {
       <ul className="list-disc space-y-2 pl-6 mb-8">
         <li>ISME19 2024 (Capetown, South Africa), <em>poster presentation</em></li>
         <li>7th Joint Conference DGHM & VAAM 2024 (Würzburg, Germany), <em>invited talk</em></li>
-        <li>GRC Marine Microbes 2024 (Switzerland), <em>poster presentation</em> </li>
+        <li>GRC Marine Microbes 2024 (Switzerland), <em>poster presentation</em></li>
         <li>15th Student Symposium on Molecular Medicine 2024 (Ulm, Germany), <em>invited talk</em></li>
         <li>Spring Meeting KNVM & NVMM 2024 (Arnheim, Netherlands), <em>invited talk</em></li>
         <li>MEEhubs2024 (Lausanne, Switzerland), <em>oral presentation</em></li>
         <li>Keystone Symposium: The Human Microbiome Ecology and Evolution 2024 (Banff, Canada), <em>oral presentation</em></li>
-        <li>EMBO Workshop: Bacterial Networs BacNet2022 (Spain), <em>oral presentation</em></li>
+        <li>EMBO Workshop: Bacterial Networks BacNet2022 (Spain), <em>oral presentation</em></li>
         <li>ISME18 2022 (Lausanne, Switzerland), <em>oral presentation</em></li>
         <li>CRC1371 Symposium: Functional and Clinical Relevance of Microbiome Signatures 2022 (Munich, Germany), <em>oral presentation</em></li>
         <li>14th Seeon Conference 2022 (Seeon, Germany), <em>poster presentation</em></li>
         <li>12th International Symposium on Gut Microbiology, INRAE (online), <em>oral presentation</em></li>
         <li>73rd Annual Conference of the DGHM 2021 (Leipzig, Germany), <em>oral presentation</em></li>
-        <li>EMBO-EMBL Symposium: New Approaches and Concepts in Microbiology 2021 (online), <em>poster presentation</em> </li>
-    
+        <li>EMBO-EMBL Symposium: New Approaches and Concepts in Microbiology 2021 (online), <em>poster presentation</em></li>
       </ul>
 
       <h2 className="text-4xl font-semibold mb-4">online</h2>
@@ -186,10 +187,6 @@ export default function OutreachPage() {
           rel="noopener noreferrer"
         >
           Bluesky
-        </a>{' '}
-        or check out my
-        <a href="/blog" className="text-blue-600 underline ml-1">
-          blog
         </a>{' '}
         for more!
       </p>

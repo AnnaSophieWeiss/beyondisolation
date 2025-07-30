@@ -68,7 +68,7 @@ export default function AboutPage() {
 
       {/* Education */}
       <section>
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Education & Research Experience</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">education & research experience</h2>
         <ul className="space-y-2">
           <li>
             <strong>Since 06/2025:</strong> Walter Benjamin Fellow – Postdoctoral Fellowship awarded by the German Research Foundation (DFG)
@@ -77,8 +77,8 @@ export default function AboutPage() {
             <strong>Since 04/2025:</strong> Lecturer, ETH Zürich – Department of Civil, Environmental and Geomatic Engineering
           </li>
           <li>
-            <strong>Since 06/2023:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, Department of Environmental Microbiology, 
-            Swiss Federal Institute of Aquatic Science and Technology (EAWAG), ETH Zürich
+            <strong>Since 06/2023:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
+            Swiss Federal Institute of Aquatic Science and Technology (EAWAG) 
             <br />
             <em>Main Project:</em> Elucidating the effects of functional redundancy and bacterial interaction
             networks on functional stability of microbial communities
@@ -91,7 +91,7 @@ export default function AboutPage() {
           <li>
             <strong>2016–2018:</strong> M.Sc. Physics & Biophysics, LMU Munich
              <br />
-            <em>Thesis:</em> Influence of Delay in Toxin Expression on Two-Strain Bacterial Competition in Escherichia coli
+            <em>Thesis:</em> Influence of Delay in Toxin Expression on Two-Strain Bacterial Competition in <em>Escherichia coli</em>
           </li>
           <li>
             <strong>2012–2016:</strong> B.Sc. Physics, LMU Munich
@@ -104,7 +104,7 @@ export default function AboutPage() {
       {/* Selected Publications */}
       <section>
        
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Selected Publications</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">selected publications</h2>
          
         <ul className="list-disc list-inside space-y-2">
           <li>
@@ -150,19 +150,19 @@ export default function AboutPage() {
         </ul>
       <br/>
       <p className="mt-2">
-        See metrics and the full list on {" "}
+        See metrics and a full list of publications on {" "}
         <a
           href="https://scholar.google.de/citations?user=tZUzybkAAAAJ&hl=de"
           className="text-blue-600 underline"
         >
-          Google Scholar
+          Google Scholar.
         </a>
       </p>
       </section>
 
       {/* Awards */}
       <section>
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Awards & Honors</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">awards & honors</h2>
         <ul className="list-disc list-inside space-y-2">
           <li>2024 – Dr. Hildegard and Heinrich Fuchs Award, PhD Award of the Medical Faculty of the Ludwig-Maximilians University Munich (LMU)</li>
           <li>2024 – PhD Award of the Association for General and Applied Microbiology (VAAM), Germany</li>
@@ -173,26 +173,26 @@ export default function AboutPage() {
         </ul>
       </section>
 
-      {/* Teaching & Supervision */}
+      {/* teaching & supervision */}
       <section>
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Teaching & Supervision</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">teaching & supervision</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>Elective course for Master and PhD Students, Experimental Microfluidics, ETH Zürich.</li>
-          <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich.</li>
-          <li>Co-Supervision of PhD Students, Microbial Systems Ecology Group, ETH Zürich.</li>
-          <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich.</li>
+          <li>Elective course for MSc and PhD Students, Experimental Microfluidics, ETH Zürich</li>
+          <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
+          <li>Co-Supervision of PhD Students, Microbial Systems Ecology Group, ETH Zürich</li>
+          <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
           <li>Supervised BSc and MSc students at ETH Zürich and LMU Munich </li>
-          <li>Supervision of Master Course, Practical course : Animal Models, Microbiota and Pathogens, LMU Munich.</li>
+          <li>Supervision of MSc Course, Practical course: Animal Models, Microbiota and Pathogens, LMU Munich</li>
         </ul>
       </section>
 
       {/* Service */}
       <section>
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Academic and Institutional Service</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">academic and institutional service</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>Peer reviewer for: Science, Nature Communications, ISME Journal, ISME Communications, npj and others</li>
-          <li>Conference organization: Core organization team for MEEhubs2026, a hubbased conference on microbial ecology and evolution.</li>
-          <li>Postdoc representative at the Institute for Biogeochemistry and Pollutant Dynamics (IBP), ETH Zürich.</li>
+          <li>Peer reviewing for: Science, Nature Communications, ISME Journal, ISME Communications, npj and others</li>
+          <li>Conference organization: Core organization team for MEEhubs2026, a hub-based conference on microbial ecology and evolution</li>
+          <li>Postdoc representative at the Institute for Biogeochemistry and Pollutant Dynamics (IBP), ETH Zürich</li>
         </ul>
       </section>
     </div>
