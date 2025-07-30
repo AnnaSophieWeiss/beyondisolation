@@ -176,7 +176,13 @@ export default function OutreachPage() {
         <li>73rd Annual Conference of the DGHM 2021 (Leipzig, Germany), <em>oral presentation</em></li>
         <li>EMBO-EMBL Symposium: New Approaches and Concepts in Microbiology 2021 (online), <em>poster presentation</em></li>
       </ul>
-
+ <div className="mb-8">
+        <img
+          src="/talk.jpeg"
+          alt="Scientific conference"
+          className=" shadow object-cover w-full max-w-3xl mx-auto h-auto"
+        />
+      </div>
       <h2 className="text-4xl font-semibold mb-4">online</h2>
       <p className="mb-4">
         Follow me on{' '}
