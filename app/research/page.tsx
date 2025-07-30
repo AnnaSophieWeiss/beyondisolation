@@ -16,7 +16,7 @@ const projects = [
         clear, systematic picture of how specific traits and network structures shape whole‑community responses across conditions.
         To close this gap, I am building synthetic bacterial communities that deliberately differ in species makeup, metabolic skill sets, and interaction 
         patterns, drawing on strain libraries from marine habitats. 
-        Using high‑throughput droplet microfluidics, I measure thousands of micro‑cultures at once, tracking substrate turnover, metabolite secretion, 
+        Using high‑throughput droplet microfluidics, I measure thousands of community cultures at once, tracking substrate turnover
         and growth across gradients of temperature, pH, and nutrient complexity. This setup lets me test whether resilience springs from shared ecological 
         features, and how trait distributions, resource landscapes, and network architecture steer the outcome.
       </>
@@ -28,8 +28,9 @@ const projects = [
     imageSrc: '/omm12.png',
     description: (
       <>
-        During my PhD, I used a synthetic gut bacterial community, the Oligo‑Mouse‑Microbiota (OMM12), as a tractable gut model to map how diet, host environment, and species loss 
-        reshape microbial interaction networks and, in turn, key functions such as colonization resistance to Salmonella. Bottom‑up mono‑ and pair‑culture assays,
+        During my PhD, I used a synthetic gut bacterial community, the Oligo‑Mouse‑Microbiota (OMM12), as a tractable gut model to map how diet, host environment, 
+        and species loss 
+        reshape microbial interaction networks and, in turn, key functions such as colonization resistance to <em>Salmonella enterica</em>. Bottom‑up mono‑ and pair‑culture assays,
          metabolomics, and metabolic‑network reconstructions showed that both exploitative and interference competition organize the community, and that shifting 
          nutrient landscapes can redirect its structure. Dropout experiments pinpointed “keystone” strains that modulate the abundance
           and metabolic output of the entire consortium in a context dependent manner. Together, these projects contributed mechanistic and ecological knowledge 
@@ -81,7 +82,7 @@ const projects = [
       <>
         I combined single‑cell fluorescence microscopy, two‑strain competition assays, and mathematical modelling to reveal how the timing of 
         Colicin E2 production and cell lysis controls the battle between toxin‑producing and sensitive <em>Escherichia coli</em> strains.
-        Delaying cell lysis lets producers stockpile more toxin, and this higher dose—not the exact release moment—ultimately decides the winner. 
+        Delaying cell lysis lets producers stockpile more toxin, and this higher dose, not the exact release moment, ultimately decides the winner. 
         This work uncoupled “when” from “how much” in toxin warfare and showed how metabolic conditions (e.g., glucose vs. glycerol) tune these dynamics. 
         Read the full story here:
 
