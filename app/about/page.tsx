@@ -44,7 +44,7 @@ export default function AboutPage() {
     <p className="text-base leading-relaxed mb-6">
      Download my{" "}
       <a
-      href="/CV_AnnaWeiss_05:2025.pdf"
+      href="/CV_AnnaWeiss.pdf"
       download
       className="text-blue-600 underline"
      >
