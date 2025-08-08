@@ -31,11 +31,13 @@ const projects = [
       <>
         During my PhD, I used a synthetic gut bacterial community, the Oligo‑Mouse‑Microbiota (OMM12), as a tractable gut model to map how the biotic and abiotic context, 
         and community composition
-        reshape microbial interaction networks and, in turn, key functions such as colonization resistance to <em>Salmonella enterica</em>. Bottom‑up mono‑ and pair‑culture assays,
-         metabolomics, and metabolic‑network reconstructions showed that both exploitative and interference competition organize the community, and that shifting 
-         nutrient landscapes can redirect its structure. Dropout experiments pinpointed “keystone” strains that modulate the abundance
-          and metabolic output of the entire consortium in a context dependent manner. Together, these projects contributed mechanistic and ecological knowledge 
-          about how gut 
+        reshape microbial interaction networks and, in turn, key functions such as colonization resistance to <em>Salmonella enterica</em>. 
+        Bottom‑up mono‑ and community co‑cultures,
+         metabolomics, and metabolic‑network reconstructions showed that both syntrophic interactions and interference competition organize the 
+         community, and that shifting 
+         nutrient landscapes can redirect its structure. Dropout experiments pinpointed “keystone” strains that modulate the composition
+          and metabolic output of the bacterial community in a context dependent manner. 
+          Together, these projects contributed mechanistic and ecological knowledge about how gut 
           communities assemble, interact with their environment and protect their host. You can find the resulting publications here: 
            <ul className="list-disc list-inside mt-2 space-y-1">
           <li>
