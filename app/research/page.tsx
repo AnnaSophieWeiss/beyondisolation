@@ -111,7 +111,7 @@ export default function ResearchPage() {
       {/* Intro */}
       <h1 className="text-4xl font-semibold">research projects</h1>
       <p className="text-lg leading-relaxed">
-        An overarching goal of my research program is to uncover the principles that govern
+        An overarching goal of my research is to uncover the principles that govern
         microbial community stability and resilience across environmental contexts, using
         synthetic communities ranging from free-living (aquatic) to host-associated (gut,
         vaginal) systems. By studying how these ecosystems retain or lose function under controlled disturbances, 
