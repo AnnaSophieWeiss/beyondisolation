@@ -12,7 +12,7 @@ const projects = [
     description: (
       <>
       
-        One focus of my work is understanding how microbial communities respond to environmental change, and what makes their functional output 
+        With my work, I aim to contribute to our understanding of how microbial communities respond to environmental change, and what makes their functional output 
         resilient. While functional redundancy and interaction networks are often assumed to confer stability, we still lack a mechanistic 
         understanding of how these features interact to shape whole-community behavior across conditions. To address this,  I am building synthetic bacterial communities that deliberately differ in species makeup, 
         metabolic skill sets, and interaction patterns, drawing on strain libraries from marine habitats, drawing on strain 
@@ -83,7 +83,7 @@ const projects = [
     imageSrc: '/singlcell.png',
     description: (
       <>
-        I combined single‑cell fluorescence microscopy, two‑strain competition assays, and mathematical modelling to reveal how the timing of 
+        Combining single‑cell fluorescence microscopy, two‑strain competition assays, and mathematical modelling helped us to reveal how the timing of 
         Colicin E2 production and cell lysis controls the battle between toxin‑producing and sensitive <em>Escherichia coli</em> strains.
         Delaying cell lysis lets producers stockpile more toxin, and this higher dose, not the exact release moment, ultimately decides the winner. 
         This work uncoupled “when” from “how much” in toxin warfare and showed how metabolic conditions (e.g., glucose vs. glycerol) tune these dynamics. 
