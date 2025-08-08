@@ -58,7 +58,17 @@ export default function OutreachPage() {
       year: '2024',
       content: (
         <>
-          Part of an international festival bringing scientists into pubs. I moderated a diverse set of talks about microbes over a beer! A lovely way to connect with curious minds.
+          Part of an 
+          {' '}
+          <a
+            href="https://pintofscience.ch"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            international festival
+          </a>{' '}
+          bringing scientists into pubs. I moderated a diverse set of talks about microbes over a beer! A lovely way to connect with curious minds. 
         </>
       ),
     },
@@ -67,7 +77,17 @@ export default function OutreachPage() {
       year: '2023',
       content: (
         <>
-          A large public science fair hosted by ETH and University of Zurich. I enjoyed discussing microbial ecology and showing how bacteria can surprise us.
+          A large 
+           {' '}
+          <a
+            href="https://scientifica.ch"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            public science fair
+          </a>{' '}
+          hosted by ETH and University of Zurich. I enjoyed discussing microbial ecology and showing how bacteria can surprise us.
         </>
       ),
     },

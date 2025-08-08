@@ -9,7 +9,7 @@ export default function AboutPage() {
         {/* Text content */}
         <div className="flex-1 text-base leading-relaxed space-y-4">
           <p className="text-base leading-relaxed mb-6">
-         I'm currently a Postdoctoral Research at the {" "}
+         I'm currently a Postdoctoral Researcher at the {" "}
           <a
              href="https://mse.ethz.ch"
               target="_blank"
@@ -29,7 +29,7 @@ export default function AboutPage() {
           
  <p>
    My background combines biophysics and microbiology, with both experimental and computational work on microbial interactions and bacterial community 
-   ecology. I hold a PhD in Microbiology from LMU Munich, where I investigated synthetic gut communities and the microbiome's role in colonization
+   ecology. I hold a PhD in Microbiology from LMU Munich, where I investigated synthetic gut communities and the gut microbiome's role in colonization
     resistance against enteropathogens in the group of {" "}
           <a
              href="https://www.mls.ls.tum.de/inmb/startseite/"
@@ -181,7 +181,7 @@ export default function AboutPage() {
           <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
           <li>Co-Supervision of PhD Students, Microbial Systems Ecology Group, ETH Zürich</li>
           <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
-          <li>Supervised BSc and MSc students at ETH Zürich and LMU Munich </li>
+          <li>Supervision of BSc and MSc students at ETH Zürich and LMU Munich </li>
           <li>Supervision of MSc Course, Practical course: Animal Models, Microbiota and Pathogens, LMU Munich</li>
         </ul>
       </section>
