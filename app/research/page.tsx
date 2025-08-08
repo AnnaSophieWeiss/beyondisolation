@@ -11,14 +11,15 @@ const projects = [
     imageSrc: '/kchip_project.jpg',
     description: (
       <>
-        As a first step toward uncovering general principles of microbial community resilience, I am examining how core microbial functions hold up when 
-        the environment shifts. Although overlapping abilities among species and their interaction networks are thought to underpin stability, we still lack a 
-        clear, systematic picture of how specific traits and network structures shape whole‑community responses across conditions.
-        To close this gap, I am building synthetic bacterial communities that deliberately differ in species makeup, metabolic skill sets, and interaction 
-        patterns, drawing on strain libraries from marine habitats. 
-        Using high‑throughput droplet microfluidics, I measure thousands of community cultures at once, tracking substrate turnover
-        and growth across gradients of temperature, pH, and nutrient complexity. This setup lets me test whether resilience springs from shared ecological 
-        features, and how trait distributions, resource landscapes, and network architecture steer the outcome.
+      
+        One focus of my work is understanding how microbial communities respond to environmental change, and what makes their functional output 
+        resilient. While functional redundancy and interaction networks are often assumed to confer stability, we still lack a mechanistic 
+        understanding of how these features interact to shape whole-community behavior across conditions. To address this,  I am building synthetic bacterial communities that deliberately differ in species makeup, 
+        metabolic skill sets, and interaction patterns, drawing on strain libraries from marine habitats, drawing on strain 
+        libraries from marine systems. Using high-throughput droplet microfluidics, I measure thousands of communities in parallel, tracking substrate
+        turnover and growth across gradients of temperature, pH, and nutrient complexity. This experimental platform allows me to test how resilience
+        emerges from ecological structure — and how it is shaped by trait distributions, resource environments, and network architecture.
+
       </>
     ),
   },
@@ -28,14 +29,14 @@ const projects = [
     imageSrc: '/omm12.png',
     description: (
       <>
-        During my PhD, I used a synthetic gut bacterial community, the Oligo‑Mouse‑Microbiota (OMM12), as a tractable gut model to map how diet, host environment, 
-        and species loss 
+        During my PhD, I used a synthetic gut bacterial community, the Oligo‑Mouse‑Microbiota (OMM12), as a tractable gut model to map how the biotic and abiotic context, 
+        and community composition
         reshape microbial interaction networks and, in turn, key functions such as colonization resistance to <em>Salmonella enterica</em>. Bottom‑up mono‑ and pair‑culture assays,
          metabolomics, and metabolic‑network reconstructions showed that both exploitative and interference competition organize the community, and that shifting 
          nutrient landscapes can redirect its structure. Dropout experiments pinpointed “keystone” strains that modulate the abundance
           and metabolic output of the entire consortium in a context dependent manner. Together, these projects contributed mechanistic and ecological knowledge 
           about how gut 
-          communities assemble and protect their host. You can find the resulting publications here: 
+          communities assemble, interact with their environment and protect their host. You can find the resulting publications here: 
            <ul className="list-disc list-inside mt-2 space-y-1">
           <li>
             <a
