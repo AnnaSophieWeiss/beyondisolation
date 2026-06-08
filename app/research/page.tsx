@@ -7,7 +7,7 @@ import Image from 'next/image';
 const projects = [
   {
     id: 1,
-    title: 'functional redundancy and bacterial interactions in marine bacterial communities',
+    title: 'functional redundancy and bacterial interactions in bacterial communities',
     imageSrc: '/kchip_project.jpg',
     description: (
       <>

@@ -181,6 +181,8 @@ export default function OutreachPage() {
 
       <h2 className="text-4xl font-semibold mt-10 mb-4">scientific conferences (selection)</h2>
       <ul className="list-disc space-y-2 pl-6 mb-8">
+        <li>Annual Conference VAAM 2026 (Berlin, Germany), <em>oral presentation</em></li>
+        <li>Interdisciplinary challenges in the Physics of Complexity and Life 2026 (Cargèse, Corsica), <em>oral presentation</em></li>
         <li>ISME19 2024 (Capetown, South Africa), <em>poster presentation</em></li>
         <li>7th Joint Conference DGHM & VAAM 2024 (Würzburg, Germany), <em>invited talk</em></li>
         <li>GRC Marine Microbes 2024 (Switzerland), <em>poster presentation</em></li>

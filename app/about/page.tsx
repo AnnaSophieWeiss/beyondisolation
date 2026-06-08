@@ -78,7 +78,7 @@ export default function AboutPage() {
           </li>
           <li>
             <strong>Since 06/2023:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
-            Swiss Federal Institute of Aquatic Science and Technology (EAWAG) 
+            Swiss Federal Institute of Aquatic Science and Technology (Eawag) 
             <br />
             <em>Main Project:</em> Elucidating the effects of functional redundancy and bacterial interaction
             networks on functional stability of microbial communities
@@ -178,9 +178,9 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">teaching & supervision</h2>
         <ul className="list-disc list-inside space-y-2">
           <li>Elective course for MSc and PhD Students, Experimental Microfluidics, ETH Zürich</li>
+          <li>Elective course for MSc Students, Term Paper: Environmental Sciences, ETH Zürich</li>
           <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
           <li>Co-Supervision of PhD Students, Microbial Systems Ecology Group, ETH Zürich</li>
-          <li>Bachelor Course, Practical course in Microbiology for Environmental Science, ETH Zürich</li>
           <li>Supervision of BSc and MSc students at ETH Zürich and LMU Munich </li>
           <li>Supervision of MSc Course, Practical course: Animal Models, Microbiota and Pathogens, LMU Munich</li>
         </ul>
@@ -190,7 +190,7 @@ export default function AboutPage() {
       <section>
         <h2 className="text-2xl font-semibold mt-8 mb-4">academic and institutional service</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>Peer reviewing for: Science, Nature Communications, ISME Journal, ISME Communications, npj and others</li>
+          <li>Peer reviewing for: Science, Nature Microbiology, Nature Communications, ISME Journal, ISME Communications, and others</li>
           <li>Conference organization: Core organization team for MEEhubs2026, a hub-based conference on microbial ecology and evolution</li>
           <li>Postdoc representative at the Institute for Biogeochemistry and Pollutant Dynamics (IBP), ETH Zürich</li>
         </ul>
