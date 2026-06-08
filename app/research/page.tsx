@@ -144,9 +144,9 @@ export default function ResearchPage() {
 
             {/* Text */}
             <div className="flex-1 space-y-2">
-              <h2 className="text-2xl font-semibold">{proj.title}</h2>
-              <p className="text-base leading-relaxed">{proj.description}</p>
-            </div>
+            <h2 className="text-2xl font-semibold">{proj.title}</h2>
+            <div className="text-base leading-relaxed">{proj.description}</div>
+          </div>
           </section>
         );
       })}
