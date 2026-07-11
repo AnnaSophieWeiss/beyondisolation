@@ -9,7 +9,7 @@ export default function AboutPage() {
         {/* Text content */}
         <div className="flex-1 text-base leading-relaxed space-y-4">
           <p className="text-base leading-relaxed mb-6">
-         I'm currently a Postdoctoral Researcher at the {" "}
+         I'm currently a Senior Scientist at the {" "}
           <a
              href="https://mse.ethz.ch"
               target="_blank"
@@ -71,13 +71,18 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">education & research experience</h2>
         <ul className="space-y-2">
           <li>
+            <strong>Since 07/2026:</strong> Senior Scientist, Microbial Systems Ecology Group, ETH Zürich and
+            Swiss Federal Institute of Aquatic Science and Technology (Eawag) 
+          </li>
+          <li>
             <strong>Since 06/2025:</strong> Walter Benjamin Fellow – Postdoctoral Fellowship awarded by the German Research Foundation (DFG)
           </li>
           <li>
             <strong>Since 04/2025:</strong> Lecturer, ETH Zürich – Department of Civil, Environmental and Geomatic Engineering
           </li>
+          
           <li>
-            <strong>Since 06/2023:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
+            <strong>2023-2026:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
             Swiss Federal Institute of Aquatic Science and Technology (Eawag) 
             <br />
             <em>Main Project:</em> Elucidating the effects of functional redundancy and bacterial interaction
