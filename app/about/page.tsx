@@ -16,9 +16,9 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="text-blue-600 underline"
         >
-            Microbial Systems Ecology Group at ETH Zürich   
+            Microbial Systems Ecology Group at ETH Zürich.   
           </a>{" "}
-  and a Walter Benjamin Fellow funded by the German Research Foundation (DFG). 
+
   My {" "}
   <a href="/research" className="text-blue-600 underline">
     research
@@ -29,7 +29,7 @@ export default function AboutPage() {
           
  <p>
    My background combines biophysics and microbiology, with both experimental and computational work on microbial interactions and bacterial community 
-   ecology. I hold a PhD in Microbiology from LMU Munich, where I investigated synthetic gut communities and the gut microbiome's role in colonization
+   ecology. My Postdoc at ETH Zurich was funded by a Walter Benjamin Fellowship by the German Research Foundation (DFG). I hold a PhD in Microbiology from LMU Munich, where I investigated synthetic gut communities and the gut microbiome's role in colonization
     resistance against enteropathogens in the group of {" "}
           <a
              href="https://www.mls.ls.tum.de/inmb/startseite/"
@@ -75,14 +75,15 @@ export default function AboutPage() {
             Swiss Federal Institute of Aquatic Science and Technology (Eawag) 
           </li>
           <li>
-            <strong>Since 06/2025:</strong> Walter Benjamin Fellow – Postdoctoral Fellowship awarded by the German Research Foundation (DFG)
-          </li>
-          <li>
             <strong>Since 04/2025:</strong> Lecturer, ETH Zürich – Department of Civil, Environmental and Geomatic Engineering
           </li>
+          <li>
+            <strong>2025–2026:</strong> Walter Benjamin Fellow – Postdoctoral Fellowship awarded by the German Research Foundation (DFG)
+          </li>
+          
           
           <li>
-            <strong>2023-2026:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
+            <strong>2023–2026:</strong> Postdoctoral Researcher, Microbial Systems Ecology Group, ETH Zürich and
             Swiss Federal Institute of Aquatic Science and Technology (Eawag) 
             <br />
             <em>Main Project:</em> Elucidating the effects of functional redundancy and bacterial interaction
@@ -113,15 +114,16 @@ export default function AboutPage() {
          
         <ul className="list-disc list-inside space-y-2">
           <li>
-            Weiss AS et al. (2024). "Cell Systems Voices: How can concepts from ecology enable insights about cellular communities?"
-            <em> Cell Systems</em>.{" "}
+            Weiss AS et al. (2026). "An ecological perspective on functional redundancy and robustness in microbial communities"
+            <em> Current Opinion in Microbiology</em>.{" "}
             <a
-              href="https://doi.org/10.1016/j.cels.2024.09.010"
+              href="https://doi.org/10.1016/j.mib.2026.102827"
               className="text-blue-600 underline"
             >
               DOI
             </a>
           </li>
+          
           <li>
     Weiss AS et al. (2023). "Nutritional and host environments determine community ecology and keystone species in a synthetic gut bacterial community."{" "}
     <em> Nature Communications</em>.{" "}
@@ -169,6 +171,8 @@ export default function AboutPage() {
       <section>
         <h2 className="text-2xl font-semibold mt-8 mb-4">awards & honors</h2>
         <ul className="list-disc list-inside space-y-2">
+         <li>2026 – EMBO-EMBL Symposium "Metabolic interactions shape ecosystems" Poster Price</li>
+         <li>2025 – Walter Benjamin Fellowship, Deutsche Forschungsgemeinschaft (DFG)</li>  
           <li>2024 – Dr. Hildegard and Heinrich Fuchs Award, PhD Award of the Medical Faculty of the Ludwig-Maximilians University Munich (LMU)</li>
           <li>2024 – PhD Award of the Association for General and Applied Microbiology (VAAM), Germany</li>
           <li>2023 – PhD Thesis awarded with <em>summa cum laude</em>, Ludwig-Maximilians University Munich (LMU)</li>
@@ -196,6 +200,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">academic and institutional service</h2>
         <ul className="list-disc list-inside space-y-2">
           <li>Peer reviewing for: Science, Nature Microbiology, Nature Communications, ISME Journal, ISME Communications, and others</li>
+          <li>Committee Member, Knowledge and Data Exchange Committee, SNSF funded consortium "NCCR Microbiomes" </li>
           <li>Conference organization: Core organization team for MEEhubs2026, a hub-based conference on microbial ecology and evolution</li>
           <li>Postdoc representative at the Institute for Biogeochemistry and Pollutant Dynamics (IBP), ETH Zürich</li>
         </ul>

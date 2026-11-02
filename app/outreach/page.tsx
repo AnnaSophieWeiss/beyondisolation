@@ -17,6 +17,24 @@ export default function OutreachPage() {
   };
 
   const outreachItems: AccordionItem[] = [
+   {
+      title: 'BIOspektrum Article – Journal Club',
+      year: '2026',
+      content: (
+        <>
+          It was a lot of fun to contribute to the {' '}
+          <a
+            href="https://link.springer.com/article/10.1007/s12268-026-2683-1#citeas"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >  
+          BIOSpektrum Journal club
+          </a>
+          , writing about a super interesting publication by Olivia Coleman et al. about how cellular stress contributes to the formation of gastrointestinal tumors through a host-microbiome feedback loop.
+        </>
+      ),
+    },
     {
       title: 'Cell Systems Voices – Ecology & Cellular Communities',
       year: '2024',

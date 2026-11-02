@@ -19,7 +19,20 @@ const projects = [
         libraries from marine systems. Using high-throughput droplet microfluidics, I measure thousands of communities in parallel, tracking substrate
         turnover and growth across gradients of temperature, pH, and nutrient complexity. This experimental platform allows me to test how resilience
         emerges from ecological structure — and how it is shaped by trait distributions, resource environments, and network architecture.
-
+        You can find the resulting publications here: 
+           <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>
+            <a
+              href="https://doi.org/10.1016/j.mib.2026.102827"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              Current Opinion in Microbiology, 2026
+            </a>
+          </li>
+          
+        </ul>
       </>
     ),
   },
